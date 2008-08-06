@@ -26,4 +26,4 @@ class MyUtcMigration < ActiveRecord::Migration
 
 end
 
-Copyright (c) 2008 David Baldwin & Eli Miller, released under the MIT license
+Copyright (c) 2008 David Baldwin (http://github.com/bilson) & Eli Miller (http://github.com/jqr), released under the MIT license
