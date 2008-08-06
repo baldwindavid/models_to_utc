@@ -1,7 +1,7 @@
 models_to_utc - Rails >= 2.1
 =============
 
-This plugin adds a "models_to_utc" method to your migrations that converts all :datetime and :timestamp records in a model to UTC.  It also provides the "revert_models_to_utc" method for your down migration.  The method takes two arguments:
+This plugin adds a "models_to_utc" method to your migrations that converts all legacy :datetime and :timestamp records in a model to UTC.  It also provides the "revert_models_to_utc" method for your down migration.  The method takes two arguments:
   1)  One or more models
   2)  The time zone that you are converting from - run rake time:zones:all|local|us for a list
 
